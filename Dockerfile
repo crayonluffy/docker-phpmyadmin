@@ -1,5 +1,5 @@
-FROM lbtest/php:7.4-apache
-LABEL maintainer "Nazar Mokrynskyi <nazar@mokrynskyi.com>"
+FROM php:7.4-apache
+LABEL maintainer "Ming Ting <crayonluffy@gmail.com>"
 
 # Set desired phpMyAdmin version
 
