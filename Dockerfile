@@ -1,4 +1,4 @@
-FROM php:7.4-apache
+FROM docker.io/php:7.4-apache
 LABEL maintainer "Nazar Mokrynskyi <nazar@mokrynskyi.com>"
 
 # Set desired phpMyAdmin version
