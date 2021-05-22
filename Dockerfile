@@ -1,4 +1,4 @@
-FROM php:7.4-apache
+FROM docker-registry.default.svc:5000/libtest/php:7.4-apache
 LABEL maintainer "Ming Ting <crayonluffy@gmail.com>"
 
 # Set desired phpMyAdmin version
