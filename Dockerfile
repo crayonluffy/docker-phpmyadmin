@@ -1,10 +1,6 @@
 FROM phpmyadmin-5.1-apache
 LABEL maintainer "Ming Ting <crayonluffy@gmail.com>"
 
-# Set desired phpMyAdmin version
-
-RUN PHPMYADMIN_VERSION=5.0.2 && \
-
 COPY .htaccess /var/www/html/.htaccess
 COPY config.inc.php /var/www/html/config.inc.php
 
